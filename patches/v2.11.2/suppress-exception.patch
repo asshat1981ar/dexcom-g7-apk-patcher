@@ -1,0 +1,11 @@
+diff --git a/smali_classes4/com/dexcom/coresdk/g6txkit/persistence/repositories/TxServiceRoomRepository.smali b/smali_classes4/com/dexcom/coresdk/g6txkit/persistence/repositories/TxServiceRoomRepository.smali
+index 47c8d8ce..a1b2c3de 100644
+--- a/smali_classes4/com/dexcom/coresdk/g6txkit/persistence/repositories/TxServiceRoomRepository.smali
++++ b/smali_classes4/com/dexcom/coresdk/g6txkit/persistence/repositories/TxServiceRoomRepository.smali
+@@ -4015,6 +4015,6 @@
+     invoke-direct {v0}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+
+     throw v0
+-    return-void
++    return-void
+ .end method
